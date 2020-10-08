@@ -43,9 +43,10 @@
             // 
             // pdfInputFiles
             // 
-            this.pdfInputFiles.Location = new System.Drawing.Point(37, 26);
+            this.pdfInputFiles.Location = new System.Drawing.Point(28, 21);
+            this.pdfInputFiles.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pdfInputFiles.Name = "pdfInputFiles";
-            this.pdfInputFiles.Size = new System.Drawing.Size(217, 30);
+            this.pdfInputFiles.Size = new System.Drawing.Size(163, 24);
             this.pdfInputFiles.TabIndex = 0;
             this.pdfInputFiles.Text = "Select Files to Merge";
             this.pdfInputFiles.UseVisualStyleBackColor = true;
@@ -53,9 +54,10 @@
             // 
             // btnMerge
             // 
-            this.btnMerge.Location = new System.Drawing.Point(37, 90);
+            this.btnMerge.Location = new System.Drawing.Point(28, 73);
+            this.btnMerge.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMerge.Name = "btnMerge";
-            this.btnMerge.Size = new System.Drawing.Size(217, 30);
+            this.btnMerge.Size = new System.Drawing.Size(163, 24);
             this.btnMerge.TabIndex = 1;
             this.btnMerge.Text = "Merge";
             this.btnMerge.UseVisualStyleBackColor = true;
@@ -63,9 +65,10 @@
             // 
             // btnMergeProtect
             // 
-            this.btnMergeProtect.Location = new System.Drawing.Point(36, 200);
+            this.btnMergeProtect.Location = new System.Drawing.Point(27, 162);
+            this.btnMergeProtect.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMergeProtect.Name = "btnMergeProtect";
-            this.btnMergeProtect.Size = new System.Drawing.Size(217, 30);
+            this.btnMergeProtect.Size = new System.Drawing.Size(163, 24);
             this.btnMergeProtect.TabIndex = 2;
             this.btnMergeProtect.Text = "Merge && Protect";
             this.btnMergeProtect.UseVisualStyleBackColor = true;
@@ -73,21 +76,26 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(37, 151);
+            this.txtPassword.Location = new System.Drawing.Point(28, 123);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(213, 22);
+            this.txtPassword.Size = new System.Drawing.Size(161, 20);
             this.txtPassword.TabIndex = 3;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(309, 256);
+            this.ClientSize = new System.Drawing.Size(232, 208);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.btnMergeProtect);
             this.Controls.Add(this.btnMerge);
             this.Controls.Add(this.pdfInputFiles);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PDF Utility";
             this.ResumeLayout(false);
             this.PerformLayout();
